@@ -1,0 +1,34 @@
+Using device: cpu
+Modality: image | Mock data: False
+Image root: /home/anirudh/wd/rough/data/images
+Audio root: ./data/audio
+Epochs: 20
+Negative mode: queue+synthetic
+Output dir: /home/anirudh/wd/rough/outputs_image
+[Epoch 1/20] CPC loss: 6.5549
+[Epoch 2/20] CPC loss: 3.1100
+[Epoch 3/20] CPC loss: 5.6508
+[Epoch 4/20] CPC loss: 5.9631
+[Epoch 5/20] CPC loss: 7.4749
+[Epoch 6/20] CPC loss: 8.8785
+[Epoch 7/20] CPC loss: 13.0080
+[Epoch 8/20] CPC loss: 23.9006
+[Epoch 9/20] CPC loss: 8.9812
+[Epoch 10/20] CPC loss: 33.8016
+[Epoch 11/20] CPC loss: 16.6585
+[Epoch 12/20] CPC loss: 20.7563
+[Epoch 13/20] CPC loss: 74.1009
+[Epoch 14/20] CPC loss: 21.0231
+[Epoch 15/20] CPC loss: 17.2283
+[Epoch 16/20] CPC loss: 43.5054
+[Epoch 17/20] CPC loss: 25.2271
+[Epoch 18/20] CPC loss: 13.1276
+[Epoch 19/20] CPC loss: 13.5683
+[Epoch 20/20] CPC loss: 10.5880
+Saved model to: /home/anirudh/wd/rough/outputs_image/cpc_model.pth
+Saved training curve to: /home/anirudh/wd/rough/outputs_image/training_curve.png
+[image] Alignment (lower better): 0.4381
+[image] Uniformity (lower better): -0.5330
+Running t-SNE (this can take a minute)...
+Saved t-SNE plot to: /home/anirudh/wd/rough/outputs_image/tsne_image.png
+Linear probe accuracy on image contexts: 64.61%

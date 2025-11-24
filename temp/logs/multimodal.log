@@ -1,0 +1,24 @@
+Using device: cpu
+Modality: multimodal | Mock data: True
+Image root: ./data/images
+Audio root: ./data/audio
+Epochs: 10
+Negative mode: queue+synthetic
+Output dir: /home/anirudh/wd/rough/outputs_multimodal
+[Epoch 1/10] CPC loss: 9.1939
+[Epoch 2/10] CPC loss: 24.3434
+[Epoch 3/10] CPC loss: 34.4496
+[Epoch 4/10] CPC loss: 37.7150
+[Epoch 5/10] CPC loss: 40.8577
+[Epoch 6/10] CPC loss: 61.5672
+[Epoch 7/10] CPC loss: 56.8977
+[Epoch 8/10] CPC loss: 81.6684
+[Epoch 9/10] CPC loss: 38.9686
+[Epoch 10/10] CPC loss: 62.9673
+Saved model to: /home/anirudh/wd/rough/outputs_multimodal/cpc_model.pth
+Saved training curve to: /home/anirudh/wd/rough/outputs_multimodal/training_curve.png
+[audio] Alignment (lower better): 0.4390
+[audio] Uniformity (lower better): -0.9018
+Running t-SNE (this can take a minute)...
+Saved t-SNE plot to: /home/anirudh/wd/rough/outputs_multimodal/tsne_audio.png
+Linear probe accuracy on audio contexts: 78.25%

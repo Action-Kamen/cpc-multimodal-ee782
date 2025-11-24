@@ -1,0 +1,5 @@
+nohup: ignoring input
+=== Running IMAGE (real CIFAR-10) CPC ===
+=== Running AUDIO (mock sine waves) CPC ===
+=== Running MULTIMODAL (mock audio+image) CPC ===
+=== All runs finished ===
