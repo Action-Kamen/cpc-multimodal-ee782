@@ -1,7 +1,7 @@
 # Contrastive Predictive Coding for Audio and Images  
 ### Multi-Modal Context Learning with Hybrid Negative Sampling
 
-Course: **EE782 – Deep Learning for Vision**  
+Course: **EE782 – Advanced Machine Learning**  
 Instructor: **Prof. Amit Sethi**  
 Authors: **Anirudh Garg, Satyankar Chandra**
 
